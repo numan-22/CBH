@@ -128,6 +128,7 @@ h1,h2,h3,h4,h5,h6,p{
     font-size: 78px;
     color: white;
     font-weight: 400;
+    padding: 0 0 26px 0;
 }
 .banner-text h1:nth-child(2)::before{
     display: inline-block;
@@ -450,7 +451,7 @@ feature residence
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    height: 100vh;
+   padding: 1px 0;
     position: relative;
 }
 .form-bg::after{
@@ -857,6 +858,9 @@ feature residence
     .banner-text h1,.banner-text h1:nth-child(2) {
         font-size: 72px;
     }
+    .box{
+        margin: 0 2px;
+    }
     .menu-icon{
         margin: 10px 0;
     }
@@ -888,8 +892,9 @@ feature residence
         font-size: 55px;
     }
     .about-auther-info p {
-       
         font-size: 18px;
+        text-align: justify;
+        padding: 0 12px 0 0px;
     }
     .mob-bg-text h1 {
         color: #02154E;
@@ -902,6 +907,7 @@ feature residence
     /* about */
     .banner-contain p{
         font-size: 20px;
+        text-align: justify;
     }
     .valuation-form-text h1 {
         font-size: 50px;
@@ -915,7 +921,9 @@ feature residence
         padding: 48px 36px 4px 209px;
     }
     .content-2 p, .about-here-paragraph p {
+       
         font-size: 14px;
+       text-align: justify;
     }
 }
 @media screen and (max-width:500px){
@@ -936,7 +944,8 @@ feature residence
         width: 100%;
     }
     .ramdy-capital-text p {
-        font-size: 16px;
+        text-align: justify;
+        padding: 9px 14px 8px 0px;
     }
     .banner-grid {
        flex-direction: column;
@@ -962,6 +971,7 @@ feature residence
     }
     .about-auther-info p {
         font-size: 15px;
+      
     }
     .about-auther-image img {
         margin: 72px 0 0 0;
@@ -992,6 +1002,7 @@ feature residence
     .mob-bg p {
         color: #02154E;
         font-size: 16px;
+        text-align: justify;
     }
     /* **********************
        contact
@@ -1013,7 +1024,9 @@ feature residence
         width: 83%;
     }
     .buyer-text h1{
-        font-size: 50px;
+        
+            font-size: 45px;
+      
     }
     .valuation-form-text h1 {
         font-size: 28px;
@@ -1037,11 +1050,11 @@ feature residence
         margin: -43px 0 0 0;
     }
     .about-here-paragraph p {
-       
+        padding: 5px 20px 7px 22px;
         font-size: 14px;
     }
     .about-content-bg {
-       height: 957px;
+        height: 830px;
        
     }
     .about-content-2 {
@@ -1051,7 +1064,7 @@ feature residence
         flex-direction: column;
     }
     .content-2 {
-
+        margin: 0px 0px;
         padding: 2px 29px;
     }
     .content-2 p {
